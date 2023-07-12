@@ -26,7 +26,7 @@ For this challenge we want you to build an `Animal` class, and then a `Bird` and
 - `Animal` should know about every animal created, but `Bird` and `Dog` should only know about every bird or dog.
 - Each class must be in its own file!
 
-# Challenge 2: Shopping
+# Challenge 2: Taxis
 Create a `TaxiCompany` and `TaxiCar` class. This time let's do the requirements as user stories:
 
 - A taxi company can register many cars
