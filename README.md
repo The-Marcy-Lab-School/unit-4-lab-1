@@ -6,13 +6,15 @@ In today's lab, we're going to build some classes to practice design.
 You need to make an `npm` project so you can use fancy things like `npm start` or install a dependency like `nodemon` or `jest`. Remember, to make a new project:
 
 - create a new empty folder
-- run `git init` to start your git history
 - cd into it
 - run `npm init -y`
-- add a `start` script into your `package.json`
-- run `npm install <package name>` if you want a dependency
+- make an `index.js` file, throw some log in there to see that it will run
+- make a `.gitignore` file with `node_modules` written in it
+- add a `start` script into your `package.json` to run your index file
+- run `npm install <package name>` if you want any dependencies (`npm i -D nodemon` for nodemon maybe?)
+- Then run `git init` to track everything, and you're good to go! Don't forget to commit and push up your projects frequently!
 
-You can check *any* of your assignments to see examples of this if you get lost. Or just Google or GPT it! Commit early and often.
+You can check *any* of your assignments to see examples of this if you get lost. Or just Google or GPT it!
 
 # Challenge 1: Animal Kingdom
 For this challenge we want you to build an `Animal` class, and then a `Bird` and `Dog` class. What kind of relationship would `Animal` have to those other two? Inheritance? Has Many? Do `Bird` and `Dog` have any direct relationship with each other? Maybe? Maybe not.
